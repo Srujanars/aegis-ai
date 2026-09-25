@@ -1,0 +1,184 @@
+{
+  "total_intercepted": 157,
+  "threats_prevented": {
+    "Cloud Credentials": 40,
+    "Database Secrets": 47,
+    "Financial / PII": 34,
+    "API Tokens": 19,
+    "Internal Infrastructure": 16,
+    "Personal Data (PII)": 1
+  },
+  "recent_events": [
+    {
+      "timestamp": "03:08 PM",
+      "user": "developer-shiv",
+      "entity_type": "Private RFC-1918 IP Address",
+      "category": "Internal Infrastructure",
+      "severity": "MEDIUM",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "03:08 PM",
+      "user": "developer-shiv",
+      "entity_type": "Internal Corporate Domain",
+      "category": "Internal Infrastructure",
+      "severity": "MEDIUM",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "03:03 PM",
+      "user": "developer-shiv",
+      "entity_type": "User Email Address",
+      "category": "Personal Data (PII)",
+      "severity": "LOW",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "03:03 PM",
+      "user": "developer-shiv",
+      "entity_type": "Credit Card Number (PCI-DSS)",
+      "category": "Financial / PII",
+      "severity": "CRITICAL",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "03:03 PM",
+      "user": "developer-shiv",
+      "entity_type": "Indian Aadhaar ID (DPDP Act Violation)",
+      "category": "Financial / PII",
+      "severity": "CRITICAL",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "03:03 PM",
+      "user": "developer-shiv",
+      "entity_type": "Indian PAN Number (DPDP Act Violation)",
+      "category": "Financial / PII",
+      "severity": "HIGH",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "03:02 PM",
+      "user": "developer-shiv",
+      "entity_type": "Database Connection String with Password",
+      "category": "Database Secrets",
+      "severity": "CRITICAL",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "01:52 PM",
+      "user": "developer-shiv",
+      "entity_type": "Private RFC-1918 IP Address",
+      "category": "Internal Infrastructure",
+      "severity": "MEDIUM",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "01:52 PM",
+      "user": "developer-shiv",
+      "entity_type": "Internal Corporate Domain",
+      "category": "Internal Infrastructure",
+      "severity": "MEDIUM",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "01:52 PM",
+      "user": "developer-shiv",
+      "entity_type": "Database Connection String with Password",
+      "category": "Database Secrets",
+      "severity": "CRITICAL",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "01:38 PM",
+      "user": "developer-shiv",
+      "entity_type": "Database Connection String with Password",
+      "category": "Database Secrets",
+      "severity": "CRITICAL",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "01:23 PM",
+      "user": "developer-shiv",
+      "entity_type": "Private RFC-1918 IP Address",
+      "category": "Internal Infrastructure",
+      "severity": "MEDIUM",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "01:23 PM",
+      "user": "developer-shiv",
+      "entity_type": "Internal Corporate Domain",
+      "category": "Internal Infrastructure",
+      "severity": "MEDIUM",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "01:22 PM",
+      "user": "developer-shiv",
+      "entity_type": "AWS Secret Access Key",
+      "category": "Cloud Credentials",
+      "severity": "CRITICAL",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "01:22 PM",
+      "user": "developer-shiv",
+      "entity_type": "AWS Access Key ID",
+      "category": "Cloud Credentials",
+      "severity": "CRITICAL",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "Today, 10:14 AM",
+      "user": "developer-arjun",
+      "entity_type": "AWS Access Key ID",
+      "category": "Cloud Credentials",
+      "severity": "CRITICAL",
+      "action": "Masked & Reversible",
+      "model_target": "OpenAI ChatGPT-4o"
+    },
+    {
+      "timestamp": "Today, 10:32 AM",
+      "user": "analyst-priya",
+      "entity_type": "Indian PAN Number",
+      "category": "Financial / PII",
+      "severity": "HIGH",
+      "action": "Masked & Reversible",
+      "model_target": "Claude 3.5 Sonnet"
+    },
+    {
+      "timestamp": "Today, 11:05 AM",
+      "user": "backend-dev-rohit",
+      "entity_type": "Database Connection URI with Password",
+      "category": "Database Secrets",
+      "severity": "CRITICAL",
+      "action": "Masked & Reversible",
+      "model_target": "DeepSeek R1"
+    },
+    {
+      "timestamp": "Today, 11:45 AM",
+      "user": "devops-neha",
+      "entity_type": "Internal Corporate Domain (.internal)",
+      "category": "Internal Infrastructure",
+      "severity": "MEDIUM",
+      "action": "Masked & Reversible",
+      "model_target": "GitHub Copilot"
+    }
+  ]
+}

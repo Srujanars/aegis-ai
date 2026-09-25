@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: aegis-ai
+    env: python
+    buildCommand: echo "AegisAI build complete"
+    startCommand: python3 backend/server.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
